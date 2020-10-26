@@ -381,5 +381,66 @@
   }
 }
 
+.contacts{
+  &__inner{
+    display: flex;
+  }
+  &__info{
+    width: 240px;
+    margin-right: 60px;
+  }
+  &__info-box{
+    margin-bottom: 30px;
+  }
+  &__info-title{
+    margin-bottom: 30px;
+    font-size: 21px;
+    line-height: 24px;
+    @extend %ubuntu-bold;
+    margin: 0 0 13px;
+  }
+  &__info-phone,
+  &__info-email{
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  &__info-email:hover{
+    text-decoration: underline;
+  }
+  &__form{
+    width: 570px;
+    margin-right: 106px;
+  }
+  &__form-title{
+    margin-bottom: 30px;
+    font-size: 21px;
+    line-height: 24px;
+    @extend %ubuntu-bold;
+    margin: 0 0 13px;
+  }
+  &__form-text{
+    margin: 0 0 12px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  &__form-line{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__form-input{
+    width: 49%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border: none;
+  }
+  &__form-textarea{
+    background: rgba(0, 0, 0, 0.5);
+  }
+  &__form-btn{
+
+  }
+}
+
 
 @import "media";
