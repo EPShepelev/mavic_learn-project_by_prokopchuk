@@ -13,6 +13,8 @@ $(function(){
     scrollHorizontally: true,
     sectionSelector: '.page-section',
     scrollOverflow: true,
+    anchors: ['top', 'products', 'benefits', 'specification', 'questions', 'contacts'],
+	  menu: '#header__nav',
 	});
     
 
