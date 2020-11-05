@@ -16,7 +16,9 @@ $(function(){
     anchors: ['top', 'products', 'benefits', 'specification', 'questions', 'contacts'],
 	  menu: '#header__nav',
 	});
-    
+    $('.menu__btn').on('click', function() {
+      $('.menu__btn').toggleClass('menu__btn--active');
+    })
 
 
   

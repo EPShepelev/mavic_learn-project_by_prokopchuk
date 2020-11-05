@@ -52,6 +52,19 @@
     height: 2px;
     margin-bottom: 4px;
   }
+  .menu__btn.menu__btn--active{
+    .menu__btn-line{
+      opacity: 0;
+    }
+    &::after{
+      width: 24px;
+      transform: translateY(-6px) rotate(-135deg);
+    }
+    &::before{
+      width: 24px;
+      transform: translateY(6px) rotate(135deg);
+    }
+  }
   .header__phone{
     display: none;
   }
