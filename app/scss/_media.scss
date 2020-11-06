@@ -133,7 +133,42 @@
   .header__btn{
     margin-right: 0;
   }
-  
+  .products__text{
+    padding-right: 15px;
+  }
+  .products__slider-box{
+    padding-right: 20px;
+  }
+}
+@media (max-width: 1024px){
+  .title{
+    padding-top: 50px;
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 35px;
+  }
+  .products__slider-text{
+    font-size: 20px;
+    line-height: 22px;
+    top: -85px;
+  }
+}
+
+@media (max-width: 1024px){
+  .products__inner{
+    display: block;
+  }
+  .products__text{
+    padding-right: 0;
+    max-width: 100%;
+    margin-bottom: 140px;
+  }
+  .products__slider{
+    margin-left: auto;
+  }
+  products__slider-box{
+    padding-bottom: 80px;
+  }
 }
 
 @media (max-width: 540px){
